@@ -1,0 +1,96 @@
+body {
+	  font-size: 16px;
+	  font-family: 'Oxygen', sans-serif;
+	  	color: black;
+		background-color: white;
+		font-family: 'Lobster', cursive;
+		background-image: url('../images/food.jpg') ;
+		background-repeat: repeat-y;
+}
+/**Header**/
+
+#header-nav{
+    background-color:#949494 ;
+
+	border-radius: 0;
+	border: 2px solid black;
+	  	color: black;
+
+
+}
+/**End of Header**/
+
+/**Food, LLC**/
+.navbar-brand p{
+	  color: black;
+	font-size: 30px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.row{
+	
+	position: relative;
+	float: left;
+}
+#home {
+	margin-bottom: 30px;
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color:  green;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+} 
+.container h1{
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.8em;
+}
+/**Chicken,Beef,Sushi**/
+.container h2{
+		font-weight: bold;
+		color: black;
+		font-size: 1.5em;
+		padding-top: -40px;
+
+}
+
+
+
+/**Content**/
+.row > div > article{
+	background-color: white;
+	text-align: justify;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 12px;
+	color: black;
+	padding-top: 5px;
+	background-color: #949494;
+
+
+}
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+
+}
+
+
+
+
+
